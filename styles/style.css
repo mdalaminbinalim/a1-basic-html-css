@@ -84,3 +84,75 @@ nav button:hover {
   padding-right: 120px;
   padding-left: 120px;
 }
+
+/* Web Development Styles */
+
+.web-development {
+  margin: 74px 145px 90px;
+  padding: 80px 197px;
+}
+
+.web-development > h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.web-development > h1,
+.web-development > p {
+  text-align: center;
+}
+
+.web-development > p {
+  margin-bottom: 32px;
+}
+
+.web-development p {
+  color: rgb(13, 19, 33);
+}
+
+.reason {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 48px 0;
+}
+
+.reason-text {
+  margin: 10px 100px 10px 32px;
+}
+
+.reason-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.reasons h1 {
+  color: rgba(13, 19, 33, 0.7);
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.reason-text img {
+  padding: 16px;
+}
+
+.reason-text button {
+  color: rgba(13, 19, 33, 0.7);
+  margin-top: 32px;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid rgba(13, 19, 33, 0.7);
+  border-radius: 5px;
+}
+
+.reason-text button:hover {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
