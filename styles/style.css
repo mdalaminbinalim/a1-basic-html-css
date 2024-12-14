@@ -87,7 +87,8 @@ nav button:hover {
 
 /* Web Development Styles */
 
-main {
+main,
+footer {
   margin: 0 150px;
 }
 
@@ -263,4 +264,76 @@ main {
 
 .next-targets img {
   padding: 24px;
+}
+
+/* Support Section */
+
+.support {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/handshake.jpg");
+  border-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  height: 313px;
+  margin: 50px 0 120px;
+}
+
+.support-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 34px 48px;
+}
+
+.support-text h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.support-text p {
+  font-weight: 400;
+  padding: 0px 200px;
+}
+
+.support-form {
+  display: flex;
+  gap: 16px;
+  padding: 24px 0 64px;
+}
+
+.support-text input {
+  width: 500px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+.support input[placeholder] {
+  padding: 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.support-text input,
+button {
+  border-radius: 8px;
+}
+
+.support-text button {
+  font-family: Azeret Mono;
+  padding: 17px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.support-text button:hover {
+  background-color: black;
+  color: white;
 }
