@@ -87,9 +87,13 @@ nav button:hover {
 
 /* Web Development Styles */
 
+main {
+  margin: 0 150px;
+}
+
 .web-development {
-  margin: 74px 145px 70px;
-  padding: 80px 197px;
+  margin: 74px 0px 40px;
+  padding: 80px 100px;
 }
 
 .web-development > h1 {
@@ -165,25 +169,67 @@ nav button:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0px 148px;
-  padding: 0px 197px;
+  padding: 0px 100px;
   text-align: center;
-}
-
-.inspiration h1 {
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.inspiration p {
-  color: rgb(13, 19, 33);
-  margin: 32px 0 64px;
-  padding: 0 80px;
-  font-weight: 400;
 }
 
 .youtube {
   border-radius: 16px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.section-description {
+  color: rgb(13, 19, 33);
+  margin: 32px 0 64px;
+  padding: 0 100px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Current Target Styles */
+
+.current-target {
+  margin: 150px 0px;
+  padding: 0 50px;
+}
+
+.targets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.target {
+  text-align: left;
+  padding: 50px;
+  border-radius: 16px;
+}
+
+.target a {
+  font-size: 18px;
+  margin-top: 24px;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration-color: rgb(13, 19, 33);
+}
+
+.html {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+  background: rgba(255, 223, 0, 0.05);
 }
